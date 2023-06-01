@@ -1,0 +1,35 @@
+body{
+    background-color: #FEC72C;
+}
+
+header{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+main{
+    background-color: white;
+    width: 650px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+div{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 1px;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+

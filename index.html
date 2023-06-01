@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <main>
+        <div>
+            <p>Ano de nascimento: 
+                <input type="number" name="Ano de nascimento" id="idade">
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="sexo" id="feminino">
+                <label for="fem">Feminino</label>
+                <input type="radio" name="sexo" id="masculino">
+                <label for="mas">Masculino</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="clickar()">
+            </p>
+            <h3 id="descricao"></h3>
+        </div>
+        <div class="imagem">
+            <img id="imagem" src="" alt="">
+        </div>
+    </main>
+    <footer>
+        <p>&copy;PCCF</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
